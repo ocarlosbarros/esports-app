@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "module": "",
+  "version": "1.0.0",
+  "description": "REST API created during NLW - eSports ",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "REST",
+    "API",
+    "Nodejs",
+    "Typescript",
+    "Express",
+    "eSports",
+    "Games"
+  ],
+  "author": "Carlos Barros",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  }
+}
