@@ -1,10 +1,11 @@
 {
   "name": "server",
-  "module": "",
+  "type": "module",
   "version": "1.0.0",
   "description": "REST API created during NLW - eSports ",
-  "main": "src/server.js",
+  "main": "src/server.mjs",
   "scripts": {
+    "start": "node src/server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
