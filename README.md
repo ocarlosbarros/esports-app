@@ -15,15 +15,21 @@ requirements...
 
 
 ## How to Run
-```js
+
+
+```bash
 git clone git@github.com:ocarlosbarros/eSports-app.git
-
+```
+```bash
 cd eSports-app
+```
 
+```bash
 npm install
+```
 
 other steps...
-```
+
 
 ## Tecnologies and Libs
 
