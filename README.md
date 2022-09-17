@@ -1,6 +1,6 @@
 # NLW - eSports - Rocketseat
 
-[Imgur](https://i.imgur.com/eldRkoW.png)
+[![NLW eSports Web Application](./web/src/assets/nlw-esports-web-application.png)](https://i.imgur.com/eldRkoW.png)
 
 ## Description
 
