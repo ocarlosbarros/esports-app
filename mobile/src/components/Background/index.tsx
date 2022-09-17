@@ -5,7 +5,7 @@ import { styles } from "./styles";
 import backgroundImg from '../../assets/background-galaxy.png';
 
 interface BackgroundProps {
-    children: React.ReactNode
+    children: React.ReactNode;
 }
 
 export function Background({ children }: BackgroundProps){
