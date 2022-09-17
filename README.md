@@ -5,8 +5,7 @@
 ## Description
 
 <p style="text-align: justify">
-Project developted during event NLW realized by Rocketseat when I watched the classes and apply
-concepts and implements the code using base showed each video
+The project was developed during the NLW event held by Rocketseat. I watched the classes, applied concepts, and implemented my own code using as a code base what was shown in each video class.
 </p>
 
 ## Requirements
