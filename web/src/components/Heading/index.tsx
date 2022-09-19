@@ -1,10 +1,10 @@
-interface BoxMessageProps {
+interface HeadingProps {
     title: string,
     subTitle: string,
     children?: JSX.Element | JSX.Element[];
 }
 
-function BoxMessage({ title, subTitle, children }: BoxMessageProps){
+function Heading({ title, subTitle, children }: HeadingProps){
     return(
         <>
             <div className="mt-8 pt-1 bg-nlw-gradient self-stretch rounded-lg overflow-hidden">
@@ -20,4 +20,4 @@ function BoxMessage({ title, subTitle, children }: BoxMessageProps){
     )
 }
 
-export default BoxMessage;
+export default Heading;
