@@ -95,7 +95,7 @@ function CreateAdModal(){
                 </div>
             </div>
 
-            <div className="mt-2 flex gap-2 text-sm">
+            <div className="mt-2 flex items-center gap-2 text-sm">
                 <Checkbox.Root className="w-6 h-6 p-1 rounded bg-zinc-900">
                     <Checkbox.Indicator>
                         <Check className="w-4 h-4 text-emerald-400" />
