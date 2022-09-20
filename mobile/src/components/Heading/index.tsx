@@ -2,12 +2,12 @@ import { View, Text, ViewProps } from 'react-native';
 
 import { styles } from './styles';
 
-interface BoxMessageProps extends ViewProps {
+interface HeadingProps extends ViewProps {
     title: string;
     subtitle: string;
 }
 
-export function BoxMessage({ title, subtitle, ...rest }: BoxMessageProps){
+export function Heading({ title, subtitle, ...rest }: HeadingProps){
     return (
         <View style={ styles.container } { ...rest }>
             
