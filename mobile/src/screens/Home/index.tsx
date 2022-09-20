@@ -4,7 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context'
 import { useNavigation } from '@react-navigation/native';
 
 import { Background } from '../../components/Background';
-import { BoxMessage } from '../../components/BoxMessage';
+import { Heading } from '../../components/Heading';
 import { GameCard, GameCardProps } from '../../components/GameCard';
 
 import logoImg from '../../assets/logo-nlw-esports.png';
@@ -34,7 +34,7 @@ export function Home(){
                     style = { styles.logo }
                 />
 
-                <BoxMessage 
+                <Heading 
                     title="Encontre seu duo!"
                     subtitle="Selecione o game que deseja jogar..."
                 />
