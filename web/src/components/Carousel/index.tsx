@@ -1,5 +1,6 @@
 import GameCard, { Game } from "../GameCard";
 import { useState, useEffect } from 'react';
+import axios from "axios";
 
 
 
@@ -7,9 +8,8 @@ function Carousel(){
     const [games, setGames] = useState<Array<Game>>([]);
 
     useEffect(() => {
-        fetch('http://localhost:3333/games')
-        .then((response) => response.json())
-        .then((responseGames) => setGames(responseGames))
+        axios('http://localhost:3333/games')
+        .then((response) => setGames(response.data))
     }, [])
 
     return (
